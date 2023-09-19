@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #007bff;
+  padding: 10px;
+}
+
+header h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+#first {
+  display: flex;
+  justify-content: space-between;
+}
+
+#first > div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#first > div > h5 {
+  font-size: 16px;
+}
+
+#first > div > p {
+  font-size: 20px;
+  color: #007bff;
+  margin-top: 5px;
+}
+
+/*--------------------------------------------------------------------------*/
+#second {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#columnchart_material {
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
